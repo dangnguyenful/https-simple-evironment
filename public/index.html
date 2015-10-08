@@ -1,13 +1,15 @@
+<!DOCTYPE html>
 <html>
-  <body>
-<pre><code>My name is Marvin, not that you would care.
+<head>
+<meta name="viewport" content="user-scalable=no, width=device-width">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
 
-You've reached {{host}} on port {{port}}. Meh... Congratulations, I guess."</code></pre>
-    <script>
-      document.body.innerHTML = document.body.innerHTML
-        .replace(/{{(\s+)?host(\s+)?}}/, location.hostname)
-        .replace(/{{(\s+)?port(\s+)?}}/, location.host.replace(/.*:/, ''))
-        ;
-    </script>
-  </body>
+
+<script src="js/example.js"></script>
+</body>
 </html>
